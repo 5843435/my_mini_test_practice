@@ -10,7 +10,7 @@ class MiniTestPracticeTest < Minitest::Test
   end
 
   def test_odd?
-    assert @main.odd?(1) == true
+    assert @main.odd?(1) == false
     assert @main.odd?(2) == false
     assert @main.odd?(3) == true
     assert_equal false, @main.odd?(4)
