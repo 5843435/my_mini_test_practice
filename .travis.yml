@@ -2,3 +2,13 @@ language: ruby
 rvm:
   - 2.2.2
 before_install: gem install bundler -v 1.10.3
+
+script:
+  - rake test
+
+notifications:
+  emails:
+    - e5843435@yahoo.co.jp
+  on_success: always
+  on_failure: always
+
